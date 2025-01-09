@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  MapPin, Phone, Mail, Clock, 
-  Instagram, Facebook, ArrowRight,
-  MessageCircle, Flower2
-} from 'lucide-react';
+import { MapPin, Clock, Instagram, Facebook, ArrowRight, MessageCircle, Flower2 } from 'lucide-react';
 
 interface ContactProps {
   isDarkMode: boolean;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Flower2, Clock, Calendar, Heart } from 'lucide-react';
 import heroImage from '../assets/hero.webp';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   Flower2, Heart, Instagram, Facebook, 
-  ArrowRight, Mail, MapPin, Phone 
+  ArrowRight, Mail
 } from 'lucide-react';
 
 interface FooterProps {

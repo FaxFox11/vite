@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  Sunrise, Moon, Heart, Users, Timer, ArrowRight,
-  Wind, Flower2, Sun, Cloud
+  Moon, Heart, Users, Timer, ArrowRight,
+  Wind, Flower2, Cloud
 } from 'lucide-react';
 
 interface CoursesProps {

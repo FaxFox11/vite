@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Clock, User, Heart, ArrowRight, Filter } from 'lucide-react';
+import { Clock, User, Heart, ArrowRight, Filter } from 'lucide-react';
 
 interface KursplanProps {
   isDarkMode: boolean;

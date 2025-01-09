@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Circle, Heart, Moon, Sun, 
-  Wind, Flower2, Star, ArrowRight 
+  Wind, Flower2, Star
 } from 'lucide-react';
 
 interface PhilosophyProps {
