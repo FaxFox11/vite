@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/sections/banner.tsx","./src/sections/contact.tsx","./src/sections/courses.tsx","./src/sections/footer.tsx","./src/sections/hero.tsx","./src/sections/kursplan.tsx","./src/sections/navbar.tsx","./src/sections/philosophy.tsx","./src/sections/team.tsx"],"errors":true,"version":"5.6.3"}
