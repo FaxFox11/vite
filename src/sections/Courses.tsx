@@ -4,6 +4,10 @@ import {
   Wind, Flower2, Cloud
 } from 'lucide-react';
 
+import sunrise from '../assets/sunrise.webp';
+import deepmeditation from '../assets/deepmeditation.webp';
+import yinrestore from '../assets/yinrestore.webp';
+
 interface CoursesProps {
   isDarkMode: boolean;
 }
@@ -50,7 +54,7 @@ export const Courses: React.FC<CoursesProps> = ({ isDarkMode }) => {
       duration: "75 min",
       description: "Energetischer Start in den Tag mit fließenden Bewegungen und Atemübungen",
       focus: "Bewegung • Atmung • Energie",
-      image: "/src/assets/sunrise.webp",
+      image: sunrise,
       accent: "from-amber-500 via-orange-500 to-rose-500"
     },
     {
@@ -61,7 +65,7 @@ export const Courses: React.FC<CoursesProps> = ({ isDarkMode }) => {
       duration: "90 min",
       description: "Tiefenentspannung und sanfte Dehnung für Körper und Geist",
       focus: "Entspannung • Dehnung • Ruhe",
-      image: "/src/assets/yinrestore.webp",
+      image: yinrestore,
       accent: "from-blue-500 via-indigo-500 to-violet-500"
     },
     {
@@ -72,7 +76,7 @@ export const Courses: React.FC<CoursesProps> = ({ isDarkMode }) => {
       duration: "45 min",
       description: "Geführte Meditationen für innere Ruhe und mentale Klarheit",
       focus: "Stille • Präsenz • Bewusstsein",
-      image: "/src/assets/deepmeditation.webp",
+      image: deepmeditation,
       accent: "from-cyan-500 via-blue-500 to-indigo-500"
     }
   ];

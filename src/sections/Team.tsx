@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Flower2 } from 'lucide-react';
+import annaimg from '../assets/anna.webp';
+import michaelimg from '../assets/michael.webp';
 
 interface TeamProps {
   isDarkMode: boolean;
@@ -17,7 +19,7 @@ export const Team: React.FC<TeamProps> = ({ isDarkMode }) => {
       philosophy: "Verbindet traditionelles Yoga mit modernem Flow",
       specialties: ["Vinyasa Flow", "Pranayama", "Meditation"],
       schedule: "Morgens & Abends",
-      image: "src/assets/anna.webp"
+      image: annaimg,
     },
     {
       id: 2,
@@ -27,7 +29,7 @@ export const Team: React.FC<TeamProps> = ({ isDarkMode }) => {
       philosophy: "Fokus auf Präzision und innere Stärke",
       specialties: ["Power Yoga", "Ashtanga", "Inversions"],
       schedule: "Vormittags & Abends", 
-      image: "src/assets/michael.webp"
+      image: michaelimg, 
     },
   ];
 
